@@ -7,8 +7,13 @@ requires an exhaustive design-space search approach or time consuming Meta-Heuri
 ## Tree Structure Navigation
 
 - **`Dataset/`**: Contains the main source code.  
-  - **`Before Clustering`**: The entry point for running the application.  
-  - **`After Clustering/`**: A collection of utility functions.  
+  - **`Before Clustering`**: The entry point for running the application.
+     - **`x.py`**: The entry point for running the application.  
+  - **`After Clustering/`**: A collection of utility functions.
+     - **`Training with FMNIST`**: The entry point for running the application.
+     - **`Testing`**: The entry point for running the application.
+        - **`FMNIST`**: The entry point for running the application.
+        - **`MNIST`**: The entry point for running the application.  
   
 
 - **`Codes/`**:  
