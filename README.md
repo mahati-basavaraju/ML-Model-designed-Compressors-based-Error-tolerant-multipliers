@@ -6,19 +6,20 @@ requires an exhaustive design-space search approach or time consuming Meta-Heuri
 
 ## Tree Structure Navigation
 
-- **`Dataset/`**: Contains the main source code.  
-  - **`Before Clustering`**: The entry point for running the application.
-     - **`x.py`**: The entry point for running the application.  
-  - **`After Clustering/`**: A collection of utility functions.
-     - **`Training with FMNIST`**: The entry point for running the application.
-     - **`Testing`**: The entry point for running the application.
-        - **`FMNIST`**: The entry point for running the application.
-        - **`MNIST`**: The entry point for running the application.  
+- **`Dataset/`**: Contains the dataset info used in this work
+  - **`Before Clustering`**: Initial dataset created with SSIM and hardware metrics for all ccompressor combinations.
+     - **`FMNIST`**: Dataset derived from convolution on FMNIST images.
+     - **`MNIST`**: Dataset derived from convolution on MNIST images.
+  - **`After Clustering/`**: Dataset after performing the clustering. The number of datapoints are now reduced.
+     - **`Training with FMNIST`**: Training dataset obtained after clustering of initial dataset derived from FMNIST image convolution.
+     - **`Testing`**: Testing dataset obtained after clustering.
+        - **`FMNIST`**: Testing dataset derived from convolution on FMNIST images.
+        - **`MNIST`**: Testing dataset derived from convolution on MNIST images.
   
 
 - **`Codes/`**:  
-  - **`Dataset Generation`**: The entry point for running the application.  
-  - **`Clustering/`**: A collection of utility functions.  
-  - **`NN/`**: Separate code modules, like **`module1.py`**, which implement specific features.  
+  - **`Dataset Generation`**: Codes for generation of initial datasets (before clustering).
+  - **`Clustering/`**: Codes for performing the custom clustering technique.
+  - **`NN/`**: Neural Network Architecture design, train and test codes.
 
 
