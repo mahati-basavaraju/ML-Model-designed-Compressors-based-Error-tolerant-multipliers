@@ -1,4 +1,4 @@
-from compressors_rachana import *
+from compressors import *
 from pp_gen import *
 from reduction_tree import *
 
