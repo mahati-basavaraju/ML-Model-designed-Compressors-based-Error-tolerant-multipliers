@@ -38,8 +38,8 @@ def util(l, i, j, k, inputimage, kernal, exactop, opfile):
 
 if __name__ == "__main__":
     # inputimage = imread('./ML_compressor_configuration/python_files/cameraman.png')
-    # kernal = np.array([[-39	,-81,107],[127,-94,-69],[-90,44,-128]])
-    kernal = np.array([[ -128,   -26 ,  -30],[ -17 ,  109  ,  99],[ 16  , 127   , 94]])
+    # kernal = np.array([[-39	,-81,107],[127,-94,-69],[-90,44,-128]])   //range converted Kernal Used for Fmnist
+    kernal = np.array([[ -128,   -26 ,  -30],[ -17 ,  109  ,  99],[ 16  , 127   , 94]])  //Range Converted Kernal Used for Mnist
 
 # kernal=[[-0.0215, -0.0401,  0.0427];
 #          [ 0.0514, -0.0458, -0.0348];
