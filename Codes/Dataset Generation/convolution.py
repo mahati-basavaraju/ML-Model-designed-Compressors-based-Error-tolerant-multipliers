@@ -38,11 +38,6 @@ def conv_3x3_sobel_exact(ipimage,kernal1):
 
 def conv_3x3_sobel_approx(ipimage,kernal1,pos):
     
-    # pos1=[[pos[0:7],pos[7:14],pos[14:21]],[pos[21:28],pos[28:35],pos[35:42]],[pos[42:49],pos[49:56],pos[56:63]]]
-    # pos2=[[pos[63:70],pos[70:77],pos[77:84]],[pos[84:91],pos[91:98],pos[98:105]],[pos[105:112],pos[112:119],pos[119:126]]]
-    # print(pos)
-    # pos1=[[pos[0],pos[1],pos[2]],[pos[3],pos[4],pos[5]],[pos[6],pos[7],pos[8]]]
-    # pos2=[[pos[9],pos[10],pos[11]],[pos[12],pos[13],pos[14]],[pos[15],pos[16],pos[17]]]
     dict = {}
   
     height=len(ipimage)
@@ -80,20 +75,6 @@ def conv_3x3_sobel_approx(ipimage,kernal1,pos):
 
 
 
-
-
-# A=np.random.randint(0,15, size=(10,10))
-# print("\n \n matrix A :")
-# for i in range(3):
-#     print(A[i])
-
-# B=np.random.randint(0,15, size=(3,3))
-# print("\n \n matrix B :")
-# for i in range(3):
-#     print(B[i])
-# # print( "exact",matrix_mul_exact(A,B))
-# conv_3x3_sobel_exact(A,B)
-# conv_3x3_sobel_approx(A,B,[1,4,5,6])
 
 
 
