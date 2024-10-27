@@ -1,41 +1,7 @@
+############################## FMNIST Dataset  #################################
 # import itertools
 # import pandas as pd
 
-# # Generate all combinations of the ranges using itertools.product
-# combinations = itertools.product(range(1, 4), repeat=4)
-
-# # Create lists to store the combinations, SSIM values, and multipliers
-# data = []
-# SSIM = []
-# multiplier = []
-
-# # Initialize count
-# count = 1
-
-# # Collect each combination in the list
-# for combo in combinations:
-#     i, j, k, l = combo
-#     pos = [i, j, k, l]
-#     ssim = sum(pos)  # Use sum() to calculate SSIM
-#     mul = "mul" + str(count)
-    
-#     data.append(pos)
-#     SSIM.append(ssim)
-#     multiplier.append(mul)
-    
-#     count += 1
-
-# # Convert the list to a DataFrame
-# df = pd.DataFrame({
-#     'pos': data,
-#     'SSIM': SSIM,
-#     'Multiplier': multiplier
-# })
-
-# # Save the DataFrame to an Excel file
-# df.to_excel('combinations_with_ssim.xlsx', index=False)
-
-# print("Data has been written to combinations_with_ssim.xlsx")
 # import torch
 # import torchvision
 # import torchvision.transforms as transforms
@@ -86,7 +52,7 @@
 #     print(f'Saved {class_name_safe}_{saved_counts[class_name] - 1}.png')
 
 # print("All images have been saved successfully.")
-
+################################### MNIST Dataset ######################################
 import torch
 import torchvision
 import torchvision.transforms as transforms
