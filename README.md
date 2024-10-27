@@ -9,7 +9,7 @@ requires an exhaustive design-space search approach or time consuming Meta-Heuri
 - **`Dataset/`**: Contains the dataset info used in this work
   - **`Before Clustering`**: Initial dataset created with SSIM and hardware metrics for all ccompressor combinations.
      - **`FMNIST`**: Dataset derived from convolution on FMNIST images.
-     - **`MNIST`**: Dataset derived from convolution on MNIST images.
+     - **`MNIST`**: [Dataset](https://iiitbac-my.sharepoint.com/:x:/g/personal/rachana_kaparthi_iiitb_ac_in/Eb4zZBcZeHtEk3gHNEeiayEBbKPHdskqsFSWbZGr9lcjgw?e=f2aFJh) derived from convolution on MNIST images. 
   - **`After Clustering/`**: Dataset after performing the clustering. The number of datapoints are now reduced.
      - **`Training with FMNIST`**: Training dataset obtained after clustering of initial dataset derived from FMNIST image convolution.
      - **`Testing`**: Testing dataset obtained after clustering.
