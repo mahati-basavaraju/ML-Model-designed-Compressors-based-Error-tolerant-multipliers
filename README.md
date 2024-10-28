@@ -11,10 +11,8 @@ requires an exhaustive design-space search approach or time consuming Meta-Heuri
      - **`FMNIST`**: [Dataset](https://iiitbac-my.sharepoint.com/:x:/g/personal/rachana_kaparthi_iiitb_ac_in/EeLTKVVfF2BPtMKkEQZqC88Bl3hZUCa1AgVIb3Zp8rFRqg?e=Xqyo7Q) derived from convolution on FMNIST images.
      - **`MNIST`**: [Dataset](https://iiitbac-my.sharepoint.com/:x:/g/personal/rachana_kaparthi_iiitb_ac_in/Eb4zZBcZeHtEk3gHNEeiayEBbKPHdskqsFSWbZGr9lcjgw?e=f2aFJh) derived from convolution on MNIST images. 
   - **`After Clustering/`**: Dataset after performing the clustering. The number of datapoints are now reduced.
-     - **`Training with FMNIST`**: Training dataset obtained after clustering of initial dataset derived from FMNIST image convolution.
-     - **`Testing`**: Testing dataset obtained after clustering.
-        - **`FMNIST`**: Testing dataset derived from convolution on FMNIST images.
-        - **`MNIST`**: Testing dataset derived from convolution on MNIST images.
+     - **`FMNIST`**: Dataset derived from clustering the initial dataset of convolution on FMNIST images. Multiple levels of clustering are considered.
+     - **`MNIST`**: Dataset derived from clustering the initial dataset of convolution on MNIST images. Multiple levels of clustering are considered.
   
 
 - **`Codes/`**:  
